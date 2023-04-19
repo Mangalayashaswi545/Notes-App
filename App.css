@@ -1,0 +1,138 @@
+.App {
+  margin:20px;
+}
+body{
+  background-image: url("write.png");
+  background-position:right;
+  background-size:cover;
+}
+.formContainer{
+  background-image: url("think.gif");
+  background-size:cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:20px;
+  width:25%;
+  height:60vh;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+.formContainer input:hover{
+  transform: translateY(-2px);
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px;
+}
+
+.button-2{
+  background-color: #18badf;
+  border-radius: 5px;
+  border:none;
+  align-items: center;
+  margin-left: 550px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.button-2:hover{
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #0a78b8 0 -3px 0 inset;
+  transform: translateY(-2px);
+  text-decoration:underline;
+}
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-color: coral;
+  border-radius: 5px;
+  border: none;
+  width:100px;
+  height:40px;
+  text-shadow: #fff;
+  color: beige;
+  margin:10px;
+}
+
+.button-29:focus {
+  box-shadow: #f3753b 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #db7929 0 -3px 0 inset;
+  transform: translateY(-2px);
+  text-decoration:underline;
+}
+
+.button-29:active {
+  box-shadow: #ec712a 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+input{
+  border-radius: 5px;
+  background: rgb(249, 250, 250);
+  border: 1px solid rgb(181, 189, 196);
+  font-size: 14px;
+  height: 34px;
+  line-height: 24px;
+  padding: 7px 8px;
+  color: rgb(8, 9, 10);
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+input:focus{
+    background-color: #fff;
+    border-color: #3b49df;
+    box-shadow: 1px 1px 0 #3b49df;
+}
+.hello img{
+  align-items: flex-end;
+  width:20%;
+}
+
+.formContainer1 h3{
+  text-align:center ;
+}
+.delete{
+  padding-left:13px ;
+  padding-right:13px ;
+  padding-top:7px ;
+  padding-bottom:7px ;
+  margin:20px;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius:5px;
+  background-color: rgb(241, 26, 30);
+}
+.delete:hover{
+  text-decoration: underline;
+  transform: translateY(-2px);
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #db2953 0 -3px 0 inset;
+}
+.edit{
+  padding-left:15px ;
+  padding-right:15px ;
+  padding-top:7px ;
+  padding-bottom:7px ;
+  margin:10px;
+  text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius:5px;
+  background-color: rgb(19, 93, 204);
+}
+.edit:hover{
+  text-decoration: underline;
+  transform: translateY(-2px);
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #0e5fd7 0 -3px 0 inset;
+}
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px;
+  cursor:poniter;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: linen;
+}

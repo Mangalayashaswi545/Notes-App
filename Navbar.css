@@ -1,0 +1,18 @@
+.emoji{
+    width:15%;
+    height:15%;
+}
+.nav{
+    display: flex;
+}
+.nav h3{
+    /* padding-left: 250px; */
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Rockwell';
+    font-weight: bolder;
+    font-size:300%;
+    /* padding-right: 250px; */
+    /* border:2px solid black; */
+    width:100%;
+}
